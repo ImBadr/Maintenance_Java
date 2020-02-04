@@ -5,9 +5,9 @@ import api.game.Game;
 import java.util.*;
 
 /**
- * Classe représentant un assemblage simple (jouable une ou n fois)
+ * Classe reprÃ©sentant un assemblage simple (jouable une ou n fois)
  *
- * @author Cédric / Triozer
+ * @author Badr Tadjer
  */
 public class BaseParty implements Party {
 
@@ -18,9 +18,9 @@ public class BaseParty implements Party {
 	private       boolean              win;
 
 	/**
-	 * Constructeur d'une partie avec un nombre de fois à jouer donné
+	 * Constructeur d'une partie avec un nombre de fois Ã  jouer donnÃ©
 	 *
-	 * @param repeat nombre de fois à jouer
+	 * @param repeat nombre de fois Ã  jouer
 	 */
 	public BaseParty(int repeat) {
 		this.parties = new ArrayList<>();
@@ -37,10 +37,10 @@ public class BaseParty implements Party {
 	}
 
 	/**
-	 * Ajouter des jeux à cet assemblage.
+	 * Ajouter des jeux Ã  cet assemblage.
 	 *
-	 * @param games les jeux à ajouter
-	 * @return la partie avec les jeux ajoutés
+	 * @param games les jeux Ã  ajouter
+	 * @return la partie avec les jeux ajoutÃ©s
 	 */
 	public BaseParty add(Game... games) {
 		this.parties.addAll(Arrays.asList(games));
