@@ -4,11 +4,11 @@ import api.game.Game;
 import api.party.BaseParty;
 
 /**
- * Classe représentant un assemblage "Parfait".
+ * Classe reprÃ©sentant un assemblage "Parfait".
  * <p>
- * Tous les jeux de l'assemblage doivent être gagnés.
+ * Tous les jeux de l'assemblage doivent Ãªtre gagnÃ©s.
  *
- * @author Cédric / Triozer
+ * @author Badr Tadjer
  */
 public class PerfectParty extends BaseParty {
 
