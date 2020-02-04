@@ -3,9 +3,9 @@ package api.game;
 import java.util.Scanner;
 
 /**
- * Classe représentant un jeu simple (jouable une fois)
+ * Classe reprÃ©sentant un jeu simple (jouable une fois)
  *
- * @author Cédric / Triozer
+ * @author Badr Tadjer
  */
 public abstract class BaseGame implements Game {
 
