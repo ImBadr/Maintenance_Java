@@ -3,20 +3,20 @@ package api.party;
 import api.game.Game;
 
 /**
- * Classe représentant un assemblage "Au moins n".
+ * Classe reprÃ©sentant un assemblage "Au moins n".
  * <p>
- * Si au moins n jeux de l'assemblage sont gagnés, alors c'est bon. Sinon, le jeu recommmence.
+ * Si au moins n jeux de l'assemblage sont gagnÃ©s, alors c'est bon. Sinon, le jeu recommmence.
  *
- * @author Cédric / Triozer
+ * @author Badr Tadjer
  */
 public class AtLeastParty extends BaseParty {
 
 	private final int n;
 
 	/**
-	 * Constructeur d'une partie avec un nombre de jeu à gagner au minimum
+	 * Constructeur d'une partie avec un nombre de jeu Ã  gagner au minimum
 	 *
-	 * @param n nombre de jeu à gagner
+	 * @param n nombre de jeu Ã  gagner
 	 */
 	public AtLeastParty(int n) {
 		this.n = n;
@@ -27,7 +27,7 @@ public class AtLeastParty extends BaseParty {
 		if (this.getGames().size() >= n)
 			super.start();
 		else
-			throw new RuntimeException("Pour pouvoir démarrer, cet assembleur requiert + de " + this.n + " jeu"
+			throw new RuntimeException("Pour pouvoir dÃ©marrer, cet assembleur requiert + de " + this.n + " jeu"
 					+ (this.n <= 1 ? '.' : "x."));
 	}
 
